@@ -1,0 +1,17 @@
+Paired bootstrap comparisons (mean F1 diff, 95% CI):
+
+baseline vs bilstm: mean_diff=-0.0688, 95% CI=[-0.0970, -0.0408] (significant)
+baseline vs bilstm_glove: mean_diff=-0.0984, 95% CI=[-0.1276, -0.0699] (significant)
+baseline vs bert: mean_diff=-0.0905, 95% CI=[-0.1189, -0.0620] (significant)
+baseline vs distilbert: mean_diff=-0.0979, 95% CI=[-0.1267, -0.0699] (significant)
+baseline vs roberta: mean_diff=-0.1026, 95% CI=[-0.1327, -0.0728] (significant)
+bilstm vs bilstm_glove: mean_diff=-0.0298, 95% CI=[-0.0492, -0.0107] (significant)
+bilstm vs bert: mean_diff=-0.0219, 95% CI=[-0.0409, -0.0027] (significant)
+bilstm vs distilbert: mean_diff=-0.0292, 95% CI=[-0.0480, -0.0101] (significant)
+bilstm vs roberta: mean_diff=-0.0339, 95% CI=[-0.0519, -0.0164] (significant)
+bilstm_glove vs bert: mean_diff=0.0078, 95% CI=[-0.0086, 0.0237] (not significant)
+bilstm_glove vs distilbert: mean_diff=0.0007, 95% CI=[-0.0153, 0.0165] (not significant)
+bilstm_glove vs roberta: mean_diff=-0.0041, 95% CI=[-0.0178, 0.0095] (not significant)
+bert vs distilbert: mean_diff=-0.0072, 95% CI=[-0.0192, 0.0040] (not significant)
+bert vs roberta: mean_diff=-0.0121, 95% CI=[-0.0233, -0.0014] (significant)
+distilbert vs roberta: mean_diff=-0.0047, 95% CI=[-0.0168, 0.0072] (not significant)
